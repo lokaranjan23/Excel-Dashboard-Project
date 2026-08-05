@@ -1,0 +1,1 @@
+import React from 'react'; import { renderToString } from 'react-dom/server'; import { Autocomplete } from '@mui/material'; renderToString(React.createElement(Autocomplete, { options: [], renderInput: (params) = console.log('KEYS', Object.keys(params)); return null; } }));  
